@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hanaquantchallenge"
+version = "0.1.0"
+description = ""
+authors = ["jaepil-choi <chljeffreyz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.2"
+matplotlib = "^3.6.2"
+jupyterlab = "^3.5.2"
+tqdm = "^4.64.1"
+seaborn = "^0.12.2"
+scikit-learn = "^1.2.0"
+quantstats = "^0.0.59"
+statsmodels = "^0.13.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
